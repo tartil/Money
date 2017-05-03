@@ -9,7 +9,8 @@ namespace Lab2
         {
             Money.Money money = new Money.Money();
             money.GetMoney();
-           
+            BusinessCardMain businessCard = new BusinessCardMain();
+            businessCard.UseBusinessCard();
         }
     }
 }
