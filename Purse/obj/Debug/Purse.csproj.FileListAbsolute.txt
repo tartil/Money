@@ -1,0 +1,11 @@
+C:\Users\Dimas\Desktop\lab_2\Purse\Purse\bin\Debug\Purse.exe.config
+C:\Users\Dimas\Desktop\lab_2\Purse\Purse\bin\Debug\Purse.exe
+C:\Users\Dimas\Desktop\lab_2\Purse\Purse\bin\Debug\Purse.pdb
+C:\Users\Dimas\Desktop\lab_2\Purse\Purse\obj\Debug\Purse.exe
+C:\Users\Dimas\Desktop\lab_2\Purse\Purse\obj\Debug\Purse.pdb
+C:\Users\Dimas\Desktop\lab_2\Purse\Purse\bin\Debug\Money.dll
+C:\Users\Dimas\Desktop\lab_2\Purse\Purse\bin\Debug\Money.pdb
+C:\Users\Dimas\Desktop\lab_2\Purse\Purse\obj\Debug\Purse.csprojResolveAssemblyReference.cache
+C:\Users\koval\Desktop\gitlab\Purse\bin\Debug\Purse.exe.config
+C:\Users\koval\Desktop\gitlab\Purse\obj\Debug\Purse.exe
+C:\Users\koval\Desktop\gitlab\Purse\obj\Debug\Purse.pdb
