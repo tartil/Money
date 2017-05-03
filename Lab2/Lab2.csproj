@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -33,6 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BusinessCard">
+      <HintPath>BusinessCard\bin\Debug\BusinessCard.dll</HintPath>
+    </Reference>
+    <Reference Include="CreditLibrary">
+      <HintPath>CreditLibrary\bin\Debug\CreditLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="DepositClass">
+      <HintPath>..\..\екн2\trunk\DepositClass\DepositClass\bin\Debug\DepositClass.dll</HintPath>
+    </Reference>
+    <Reference Include="Money">
+      <HintPath>Money\bin\Debug\Money.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,20 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Money\Money.csproj">
-      <Project>{2c514a16-cc79-4612-b6dc-24cbf2ce0c8c}</Project>
-      <Name>Money</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CreditLibrary\CreditLibrary.csproj">
-      <Project>{16dfcacb-f6d9-4fa7-9db8-6c116c3d1146}</Project>
-      <Name>CreditLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BusinessCard\BusinessCard.csproj">
-      <Project>{dbe44689-99c9-45e3-9c07-440ec9ef3df9}</Project>
-      <Name>BusinessCard</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
