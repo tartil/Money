@@ -11,6 +11,8 @@ namespace Lab2
             money.GetMoney();
             CreditCard creditCard = new CreditCard();
             creditCard.getCredit();
+            BusinessCardMain businessCard = new BusinessCardMain();
+            businessCard.UseBusinessCard();
         }
     }
 }
